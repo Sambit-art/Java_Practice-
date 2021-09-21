@@ -126,7 +126,12 @@ public class tut1 {
 		coffieList.setBounds(20, 104, 153, 277);
 		coffieList.setModel(new AbstractListModel() {
 			String[] values = new String[] {"Arabica-Arabica  150/-", "Black-coffee   120/-", "Latte    100/-","Cappuccino    80/-","Americano    130/-","Espresso    70/-","Doppio    90/-"};
-			
+			public int getSize() {
+		   		return values.length;
+		   	}
+		   	public Object getElementAt(int index) {
+		   		return values[index];
+		   	}
 		});
 		JScrollPane scrollableTextArea1 = new JScrollPane(coffieList);  
 		scrollableTextArea1.setBounds(0, 5, 490, 314);
