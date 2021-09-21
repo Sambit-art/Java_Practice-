@@ -1,7 +1,7 @@
 package billing_app;
 
 class Bill{
-	int val=0;
+	protected int val=0;
 	public int inc(int price,int multipleinc) {
 		val=val+price*multipleinc;
 		return val;
