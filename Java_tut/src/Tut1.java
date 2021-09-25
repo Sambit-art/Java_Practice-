@@ -1,39 +1,36 @@
-class Sum{
+class Aprac{
+	int roll,age;
+	String name;
 	
-	int val1,val2,resultval;
-	public void claculate(){
-		resultval=val1+val2;
-		System.out.println(resultval);
+	public Aprac(int roll,String name,int age) {
+		this.roll=roll;
+		this.name=name;
+		this.age=age;
 	}
+
+	public Aprac() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "Aprac [roll=" + roll + ", age=" + age + ", name=" + name + "]";
+	}
+	
+	public void test(Aprac r1) {
+		System.out.println(r1.toString());
+	}
+	
 }
-
-
 
 public class Tut1 {
 
 	public static void main(String[] args) {
 		
-		int num1 = 10;
-		double num2=10;
-		int num3=(int) 10.00;
-		float num4= 10.20f;
-		short num5=100;
-		byte num6=100;
-		String fn = "Sambit ";
-		String  ln="Bhattacharyya";
-		System.out.println(fn.lastIndexOf("S"));
-		System.out.println(num6);
-		System.out.println(Sum(num6, num5));
-		
-		
-		Sum sum1=new Sum();
-		System.out.println(sum1);
-	}
+		Aprac ap= new Aprac(142, "Sambit", 21);
+		String data=new Aprac(142, "Bony", 21).toString();
+		System.out.println(data);
+		new Aprac().test(ap);;
 	
-	public static int Sum(int n1, int n2) {
-		int result=n1+n2;
-		return (short)result;
 	}
-	
-
 }

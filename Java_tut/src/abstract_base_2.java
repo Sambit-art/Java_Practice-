@@ -4,8 +4,9 @@ class Math{
 		
 	}
 	
-	public void abc() {
+	public static void abc() {
 		System.out.println(Integer.parseInt("545"));
+		System.out.println(Integer.toBinaryString(95));
 	}
 }
 
@@ -19,7 +20,7 @@ public class abstract_base_2 {
 		double b=27.5;
 		
 		aa.sum(a, b);
-
+		Math.abc();
 		
 	}
 
