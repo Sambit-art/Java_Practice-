@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jar_files/faunadb-common-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jar_files/faunadb-java-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jar_files/jackson-annotations-2.12.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jar_files/jackson-core-2.12.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jar_files/jackson-databind-2.12.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jar_files/jackson-datatype-jdk8-2.12.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jar_files/metrics-core-4.1.12.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jar_files/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_271/jre/lib/charsets.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_271/jre/lib/deploy.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_271/jre/lib/javaws.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_271/jre/lib/jce.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_271/jre/lib/jfr.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_271/jre/lib/jfxswt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_271/jre/lib/jsse.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_271/jre/lib/management-agent.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_271/jre/lib/plugin.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_271/jre/lib/resources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
